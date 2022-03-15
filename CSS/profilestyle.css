@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.profile-page {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(profileback.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-nav a {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+
+.wrapper{
+    max-width: 470px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,.10);
+    margin: auto;
+    background: rosybrown;
+    border-radius: 10%;
+    min-height: 470px;
+    padding: 2rem;
+}
+.wrapper h1{
+    font-family: Abril Fatface;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.wrapper .inputBox{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1.3rem;
+    position: relative;
+    font-family: Libre Baskerville;
+    font-size: 400;
+}
+.wrapper .inputBox input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    outline: none;
+    border-radius: 4px;
+    padding: 1rem;
+}
+.wrapper .inputBox:last-child{
+    margin-bottom: 0;
+}
+.wrapper button{
+    padding: .7rem 2rem;
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: black;
+    background: #DDA0DD;
+    font-family: Libre Baskerville;
+    cursor: pointer;
+    transition: .3s;
+}
+.wrapper button:hover {
+    transform: translateY(-5px);
+    background: #BA55D3;
+}
+.wrapper form{
+    padding: 0;
+}
